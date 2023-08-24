@@ -6,9 +6,9 @@
   --clr-neutral-200: hsla(0, 0%, 100%, 0.75);
   --clr-neutral-300: hsl(0, 0%, 100%);
 
-  --fs-sm: 15px;
-  --fs-md: 18px;
-  --fs-lg: 20px;
+  --fs-sm: 0.938rem;
+  --fs-md: 1.125rem;
+  --fs-lg: 1.25rem;
   
   --fw-regular: 400;
   --fw-bold: 700;
@@ -110,7 +110,7 @@
     max-width: 30rem;
     display: flex;
     flex-direction: column;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     overflow: hidden;
   }
 
@@ -169,15 +169,7 @@
     }
   }
 
-  /* .card__content {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding-top: 80px;
-    padding-bottom: 60px;
-    padding-right: 120px;
-    padding-left: 60px;
-  } */
+  
   
 
   /* .attribution {
