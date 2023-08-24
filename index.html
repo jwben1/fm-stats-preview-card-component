@@ -11,14 +11,51 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
 
     <title>Frontend Mentor | Stats preview card component</title>
   </head>
   <body>
-    Get insights that help your business grow. Discover the benefits of data
-    analytics and make better decisions regarding revenue, customer experience,
-    and overall efficiency. 10k+ companies 314 templates 12m+ queries
+    <main class="card">
+      <picture class="card__image">
+        <source
+          media="(min-width: 600px)"
+          srcset="images/image-header-desktop.jpg"
+        />
+        <img src="images/image-header-mobile.jpg" alt="" />
+      </picture>
+      <div class="card__content">
+        <h1 class="card-title">
+          Get <span>insights</span> that help your business grow.
+        </h1>
+        <p class="card-description">
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <div class="flex-group">
+          <div class="flex-item">
+            <p>10k+</p>
+            <span>companies</span>
+          </div>
+
+          <div class="flex-item">
+            <p>10k+</p>
+            <span>companies</span>
+          </div>
+
+          <div class="flex-item">
+            <p>10k+</p>
+            <span>companies</span>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <!--
       <div class="attribution">
