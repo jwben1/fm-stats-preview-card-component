@@ -136,19 +136,24 @@
 
     .flex-group {
       flex-direction: row;
+      gap: 2rem;
+      padding-top: 2rem;
     }
     .card__content {
-     width: 52%;
-     padding-top: 2rem;
-     padding-left: 2rem;
-     padding-right: 5rem;
-     padding-bottom: 1.5rem;
-     text-align: left;
-     gap: 0;
+      width: 52%;
+      /* padding-top: 6rem;
+      padding-left: 4rem;
+      padding-right: 7rem;
+      padding-bottom: 1.5rem; */
+      padding: 6rem 7rem 1.5rem 4rem;
+      text-align: left;
+      gap: 1rem;
+      display: flex;
+      flex-direction: column;
     }
 
-    picture {
-      
+    .card-title {
+      font-size: 2rem;
     }
 
     .card__image {
