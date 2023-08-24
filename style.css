@@ -128,8 +128,34 @@
     padding: var(--spacer-md);
   }
 
-  @media (min-width: 800px) {
-    
+  @media (min-width: 850px) {
+    .card {
+      flex-direction: row-reverse;
+      max-width: 70rem;
+    }
+
+    .flex-group {
+      flex-direction: row;
+    }
+    .card__content {
+     width: 52%;
+     padding-top: 2rem;
+     padding-left: 2rem;
+     padding-right: 5rem;
+     padding-bottom: 1.5rem;
+     text-align: left;
+     gap: 0;
+    }
+
+    picture {
+      
+    }
+
+    .card__image {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
   }
 
   /* .card__content {
